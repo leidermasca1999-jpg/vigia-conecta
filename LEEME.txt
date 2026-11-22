@@ -1,0 +1,63 @@
+VIGÍA CONECTA
+=============
+
+Aplicación de consulta y gestión de rutas de transporte
+fluvial y aéreo en Vigía del Fuerte, Antioquia.
+
+REQUISITOS
+----------
+- Node.js instalado.
+- Visual Studio Code (recomendado).
+- Acceso a internet.
+- Proyecto configurado en Supabase.
+
+INSTALACIÓN EN WINDOWS
+----------------------
+1. Abrir la carpeta del proyecto en Visual Studio Code.
+2. Abrir Terminal > Nueva terminal.
+3. Ejecutar:
+
+   npm.cmd install
+
+4. Para iniciar la aplicación, ejecutar:
+
+   npm.cmd run dev
+
+5. Abrir en el navegador la dirección que indique Vite.
+
+TECNOLOGÍAS
+-----------
+- React.
+- Vite.
+- JavaScript.
+- CSS.
+- Supabase.
+
+FUNCIONALIDADES
+---------------
+- Consulta pública de rutas fluviales y aéreas.
+- Consulta de horarios y tarifas reportadas.
+- Búsqueda y filtros de rutas.
+- Inicio de sesión de administrador.
+- Creación, edición y eliminación de rutas.
+- Gestión de avisos y comunicados.
+- Control de acceso mediante roles.
+
+CONFIGURACIÓN
+-------------
+Las credenciales de conexión con Supabase se configuran
+mediante variables de entorno en un archivo .env.
+
+No publicar el archivo .env ni compartir sus credenciales.
+
+ALCANCE
+-------
+La aplicación es informativa. No reserva cupos, no vende
+tiquetes, no realiza seguimiento en tiempo real y no
+garantiza horarios ni disponibilidad.
+
+Las tarifas y horarios deben confirmarse con los
+prestadores del servicio.
+
+Proyecto académico - UNAD.
+Autores: Leider Asprilla Moreno y Karol Gutiérrez Ibargüen.
